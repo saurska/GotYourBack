@@ -1,0 +1,141 @@
+body {
+    background-image: url("/Img/Simple.jpg");
+    /* background-color: #2f768e; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Login-Box {
+    height: 574px;
+    width: 380px;
+    background-color: #1f3b44;
+    /* position: absolute; */
+    margin: 69px auto;
+}
+
+.heading1 {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0px;
+}
+
+.KamWalaText {
+
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 7px 31px;
+    
+}
+
+
+
+.Login-Box input[type="email"],
+[type="password"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 317px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 28px;
+    /* display: inline-block; */
+    /* border: 1px solid #ccc;
+    border-radius: 4px; */
+    
+    box-sizing: border-box;
+    
+    /* border: 2px solid red; */
+    /* border-radius: 8px ; */
+    border: none;
+    border-bottom: 2px solid rgb(172, 180, 35);
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+    
+    
+}
+
+/* .Login-Box input:focus{    
+    
+    background-color: white;
+    color:black;
+    
+    
+} */
+
+.ChotaText {
+    margin: 5px 28px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.Login-Button {
+    color: white;
+    margin: 34px 35px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 18px;
+    padding: 3% 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2a9d8f;
+    cursor: pointer;
+}
+
+.Login-Button:hover {
+    background-color: #3adbc8;
+    color: #1f3b44;
+}
+
+.BindBox {
+    margin: 30px 0px 0px 0px;
+}
+
+.CenterText {
+    margin: 0px 59px;
+}
+
+.BindBox a:hover {
+    color: rgb(230, 213, 113);
+}
+
+#message{
+    color:rgb(161, 61, 61);
+    font-size: 12px;
+}
+
+
+
+#MessageUserExists{
+    color:rgb(227, 51, 51);
+    font-size: 12px;
+    margin: 7px 31px;
+}
+
+.MessageUserExistence{
+    color:rgb(196, 27, 27);
+    font-size: 12px;
+}
+
+.Back2Home{
+    height: 27px;
+    width: 27px;
+   float:right;
+   padding:6px;
+
+
+}
+
+

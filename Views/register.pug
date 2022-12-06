@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="CSS/LoginandRegister.css">
+</head>
+
+<body>
+    <div class="Login-Box">
+     <a href="Index.Html"><img src="Img/Back2Home.png" class="Back2Home HoverText" alt=""></a>
+        <h1 class="heading1">Join Us!</h1>
+        <form onsubmit="return Validate()" action="/Register" method="post">
+            <div class="BindBox">
+
+                <p class="KamWalaText">Email Address</p>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email here ">
+                if NotAbleToRegister 
+                    |<p class ="KamWalaText MessageUserExistence">User already exists try loging in </p>
+
+                <p class="KamWalaText">Create a password</p>
+                <input type="password" name="Password" id="Password" placeholder="Enter the password">
+
+                <p class="KamWalaText" id="message"></p>
+                <p class="KamWalaText">Confirm the password</p>
+
+                <input type="password" name="Re_Password" id="Re_Password" placeholder="Re-enter the password">
+
+                <div class="bttn">
+                    <input type="submit" value="Submit" class="Login-Button">
+                </div>
+
+                <a href="Login.Html" class="CenterText ChotaText ">Already have an account ? &nbsp;Login now</a>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="Js/register.js"></script>
+
+</body>
+
+</html>

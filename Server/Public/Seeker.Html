@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/HelperandSeeker.Css">
+    <title>Seeker</title>
+
+</head>
+
+<body>
+    <nav class="MajorBar">
+        <div class="Minor1">
+            <div class="RightNav">
+                <a href="Helper.Html">
+                    <input type="submit" value="Switch to Helper" name="Switch_to_Helper" class="AllButton TopButton">
+                </a>
+
+                <a href="#Logout">
+                    <input type="submit" value="Log out" name="Log_out" class="AllButton TopButton">
+                </a>
+
+                <!-- <a href="#PlaceYourRequest"> -->
+                    <input type="submit" value="New Request" class="AllButton TopButton" onclick="RequestContentDisplay()">
+                <!-- </a> -->
+            </div>
+            <div class="LeftNav">
+
+                <img src="Img/Support.jpg" alt="Profile Picture" class="Profile">
+
+            </div>
+        </div>
+        <div class="Minor2">
+            <a href="Index.Html" class="Home"><img src="Img/Home.png" alt="Home Icon"></a>
+            <h1 class="Helper_Heading">Seeker</h1>
+            <div class="RightNav">
+
+            </div>
+            <div class="LeftNav">
+                <input type="text" class="Search">
+                <input type="submit" class="AllButton SearchButton" value="Search">
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- <section class="FirstSec ">
+
+        <div class="MainBox">
+            <h1 class="Box-Heading">Now the Wait is Over! </h1>
+            <p class="para">Be a Helper, by solving real-life practical problems 
+                and get paid for the the same. Let’s use our abilities
+                to make world a better place!</p>
+
+        </div>
+
+    </section> -->
+    <section id="FirstSecDisplay">
+        <div class="Row">
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                This is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+      
+
+    </div> 
+</section>
+
+
+
+
+
+    <form action="/Seeker" method="post">
+        <section id="CreateNewRequestFirstSec">
+            <div class="Detail-Box">
+
+                <button id="Cancel-Button" onclick="HideRequestContent()"><img src="Img/Asset 3-8.png" alt="" id="Cancel-Img"></button>
+                
+                <div class="CreateItNow">
+                    <h2 class="Margin-Adequate_Style H2Margin AfterLine"> Post Your Request Here</h2>
+                </div>
+
+                <div class="Small-Text-Wrapper">
+                    <h4 class="Margin-Adequate_Style AfterText"> Title</h4>
+                    <div class="Sub-Text Margin-Adequate_Style">Give an Eye-Catchy title to your Request</div>
+
+                    <div class="inputMaterial">
+                        <input type="text" placeholder="Crazy-Title" class="Input-Inner" name="title" required>
+                    </div>
+
+                    <h4 class="Margin-Adequate_Style AfterText"> Describe your request</h4>
+                    <div class="Sub-Text Margin-Adequate_Style">Give a brief overview of what service are you exactly looking for                     
+                         </div>
+
+                    <textarea name="text_description" id="textarea" maxlength="1200" onkeyup="CharCount()" cols="30"
+                        rows="10" placeholder="Here we go..."></textarea>
+                    <span id="textcount"></span>
+
+                    <h4 class="Margin-Adequate_Style AfterText"> The amount you are willing to pay for the task  (in Rs) :
+                        <span> <input type="number" class="Small-Input" name="money"></span></h4>
+
+                    <input type="submit" value="Save" class="Button AllButton">
+
+
+                </div>
+            </div>
+
+    </form>
+
+    <script src="Js/H_and_L.js"></script>
+
+</body>
+
+</html>

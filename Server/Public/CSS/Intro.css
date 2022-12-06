@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar {
+   
+    display: block;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    cursor: pointer;
+    background-color: #264653;
+    margin: auto;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+.Eksath {
+    height: 60px;
+    display: flex;
+    max-width: 1200px;
+    /* max-width: 1900px; */
+    margin: auto;
+}
+
+
+.nav-list {
+    /* width: 50%; */
+    /* background-color: rgb(244, 98, 98); */
+    display: flex;
+    
+    /* justify-content: right;
+    align-items: center; */
+    position: relative;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 26px;
+    font-size: 17px;
+    font-family: Proxima Nova;
+    
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+     color:white;
+    transition: border-bottom 0.1s ease-in ;
+    
+
+}
+
+.nav-list li::after{
+    content: '';
+    width: 0%;
+    background: #05d7bf;
+    height: 2px;
+    display: block;
+    /* margin: auto; */
+    transition: 0.5s;
+    /* margin: auto; */
+}
+
+
+
+.nav-list li:hover::after{
+    width: 100%; 
+
+}
+
+.leftnav {
+    /* background-color: rgb(111, 255, 0); */
+    /* width: 50%; */
+    padding: 21px 45px;
+    display:flex;
+
+}
+
+.leftnav a {
+    text-decoration: none;
+    color: rgb(111, 249, 249);
+    font-size: 27px;
+    font-family: Proxima Nova;
+}
+
+.centerNav {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    list-style: none;   
+    justify-content: center;
+  
+    
+}
+
+.centerNav a{
+    text-decoration: none;
+    margin: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centerNav a:hover{
+    text-decoration: none;
+    margin: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .LinkWrapper{
+    display: flex;
+    margin: 9px 100px;
+} */
+.rightnav {
+    /* width: 50%; */
+    /* justify-content: right;
+    text-align: right; */
+    /* padding: 10px; */
+    /* margin: auto 8px; */
+    position: relative;
+}
+
+.rightnav a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.container {
+    background-color: #264653;
+    display: block;
+    height: 49px;
+
+}
+
+.container li {
+    justify-content: center;
+    align-items: center;
+}
+
+.container li a {
+    color: #e9c46a;
+
+
+}
+
+.NavWrapper{
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+}
+
+#search {
+    padding: 5px;
+    font-size: 14px;
+    /* border: 1px solid grey; */
+    border-radius: 4px;
+    border-style: none;
+   width: 250px;
+
+}
+
+.SearchBar{
+    display: flex;
+    width :40%;
+    align-items: center ;
+    justify-content: right;
+    margin:10px 50px
+    
+}
+
+
+.boxmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+
+.firstHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 50%;
+    padding: 50px;
+
+
+}
+
+.secondHalf {
+    display: flex;
+    /* position: relative; */
+    justify-content: right;
+
+    width: 50%;
+
+
+
+}
+
+.secondHalf img {
+    width: 90%;
+
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.Navvy {
+    display: block;
+}
+
+.textBig {
+
+    font-family: proxima nova;
+    font-size: 50px;
+
+}
+
+.textSmall {
+
+    font-size: 18px;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 18px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.medium-txt {
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 5px;
+}
+
+/* .Buttons{
+
+}
+.Buttons :hover
+{
+    background-color: #264653;
+} */
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: 2px solid #264653;
+    background-color: #2a9d8f;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #05d7bf;
+    ;
+}
+
+
+
+.spBTN1 {
+    align-content: center;
+    margin: 10px 10px;
+    padding: 10px 40px;
+    font-size: 16px;
+    vertical-align: middle;
+    border-radius: 80px;
+    justify-self: center;
+    background-color: #264653;
+    ;
+}
+
+.spBTN1:hover {
+
+    background-color: #1a3138;
+
+}
+
+.spBTN2 {
+    background-color: transparent;
+    align-content: center;
+    margin: 10px 10px;
+    padding: 10px 40px;
+    font-size: 16px;
+    vertical-align: middle;
+    border-radius: 80px;
+    justify-self: center;
+    color: #1a3138;
+}
+
+.spBTN2:hover {
+
+    background-color: #efefef;
+    color: #182d33;
+
+}
+
+.smBtn :hover {
+    color: #182d33;
+
+    background-color: darkgreen;
+
+}
+
+.GYBcolor {
+    color: darkcyan;
+}
+
+.NewSec {
+    background-color: #264653;
+
+}
+
+.SecRight {
+    height: fit-content;
+}
+
+.HelperLink a {
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 908px){
+
+    .navbar {
+
+        display: block;
+        position: sticky;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        cursor: pointer;
+        background-color: white;
+        overflow: hidden;
+    }
+        .nav-list {
+            /* width: 50%; */
+            /* background-color: rgb(244, 98, 98); */
+            display: flex;
+            flex-direction: column;
+            background-color: #81a2ab;
+            justify-content: center;
+            height: 100vh;
+            /* width: 200px; */
+            z-index: 2;
+            position: absolute;
+            top:0;
+            /* right: 0; */
+            display: none;
+            
+        
+        
+        }
+
+        .nav-list li::after{
+            content: '';
+            width: 0%;
+            background: #05d7bf;
+            height: 2px;
+            display: block;
+            /* margin: auto; */
+            transition: 0.5s;
+            /* margin: auto; */
+        }
+        
+        
+        
+        .nav-list li:hover::after{
+            width: 100%; 
+        
+        }
+
+
+
+        .SearchBar{
+            display: none;
+        }
+
+
+
+        .centerNav {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            list-style: none;   
+          
+            
+        }
+
+        .textBig {
+
+            font-family: proxima nova;
+            font-size: 35px;
+            overflow: hidden;
+        
+        }
+        
+        .textSmall {
+        
+            font-size: 18px;
+            justify-content: space-evenly;
+            text-align: left;
+            margin: 18px 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        
+        .medium-txt {
+            text-align: center;
+            font-size: 20px;
+            padding: 30px 5px;
+        }
+        .secondHalf{    
+            display: none;
+        }
+        
+        .NavWrapper{
+            display: flex;
+            max-width: 900px;
+            margin:auto;
+        }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/HelperandSeeker.Css">
+    <script src="Js/H_and_L.js"></script>
+    <title>Helper</title>
+
+</head>
+<body>
+    <nav class="MajorBar">
+        <div class="Minor1">
+            <div class="RightNav">
+                <a href="Seeker.Html">
+                <input type="submit" value="Switch to Seeker" name="Switch_to_seeker" class="AllButton TopButton">
+                </a>
+
+                <a href="#Logout">
+                <input type="submit" value="Log out" name="Log_out" class="AllButton TopButton">
+            </a>
+
+            <a href="#CreateNewGig">
+                <input type="submit" value="Create New Gig" name="CreateNewGig" class="AllButton TopButton">
+            </a>
+            </div>
+            <div class="LeftNav">
+
+                <img src="Img/Support.jpg" alt="Profile Picture" class="Profile">
+
+            </div>
+        </div>
+        <div class="Minor2">
+            <a href="Index.Html" class="Home"><img src="Img/Home.png" alt="Home Icon"></a>
+            <h1 class="Helper_Heading">Helper </h1>
+            <div class="RightNav">
+
+            </div>
+            <div class="LeftNav">
+                <input type="text" class="Search">
+                <input type="submit" class="AllButton SearchButton" value="Search">
+                
+            </div>
+        </div>
+    </nav>
+
+        <div class="MainBox">
+            <h1 class="Box-Heading">Showcase Your Talent </h1>
+            <p class="para">Be a Helper, by solving real-life practical problems 
+                and get paid for the the same. Let’s use our abilities
+                to make world a better place!</p>
+                <div class="SpButtons">
+            <a href="#Explore">
+                <input type="submit" value="Explore" class="AllButton TopButton">
+            </a>
+
+            <a href="#PlaceYourGig">
+                <input type="submit" value="New Gig" class="AllButton TopButton">
+            </a>
+                </div>
+        </div>
+
+
+
+    </section> 
+    <!-- <section class="FirstSecDisplay">
+        <div class="Row">
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                This is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+
+        <div class="Show-Box">
+            <div class="Title-Text">
+                this is title text
+            </div>
+            <div class="Description-Text">
+                this is Description-Text
+            </div>
+        </div>
+      
+
+    </div> 
+</section> 
+    <form action="/Helper" method="post">
+    <section class="CreateNewGigFirstSec">
+        <div class="Detail-Box">
+            <div class="CreateItNow">
+                <h2 class="Margin-Adequate_Style H2Margin AfterLine"> Create Your Gig Here</h2>
+            </div>
+
+            <div class="Small-Text-Wrapper">
+                <h4 class="Margin-Adequate_Style AfterText"> Title</h4>
+                <div class="Sub-Text Margin-Adequate_Style">Give your gig an Eye-Catchy title</div>
+
+                <div class="inputMaterial">
+                    <input type="text" placeholder="Crazy-Title" class="Input-Inner" name="title" required>
+                </div>
+
+                <h4 class="Margin-Adequate_Style AfterText"> Describe your gig</h4>
+                <div class="Sub-Text Margin-Adequate_Style">Give a brief overview of what service you are offering</div>
+
+                <textarea name="text_description" id="textarea" maxlength="1200" onkeyup="CharCount()" cols="30" rows="10" placeholder="Here we go..."></textarea>
+                <span id="textcount"></span>
+
+                <h4 class="Margin-Adequate_Style AfterText"> You will be offering this service for amount (in Rs) : <span> <input type="number" class="Small-Input" name="money"></span></h4>
+
+               <input type="submit" value="Save" class="Button AllButton">
+
+
+                </div>
+            </div>
+
+        </form>
+
+
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>
